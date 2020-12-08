@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Refferal Side</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <style>
+          .container-fluid {
+              position: relative;
+              text-align: center;
+              color: white;
+            }
+            .centered {
+              color: black;
+              text-transform: uppercase; 
+              text-shadow: 10px 10px 10px black;
+              font-weight: bold;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+        </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">HR REFERRAL SITE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="apply.html">Apply</a>
+            </li>
+            <li>
+              <a class="nav-link" href="post.html">Post Job</a>
+            </li>
+            <li>
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button type="button" class="btn btn-success">Login</button>
+            <button type="button" class="btn btn-success">Sign Up</button>
+          </form>
+        </div>
+      </nav>
+      <div class="container-fluid" >
+        <img src="images/pic1.jpg" alt="Image" style="width:100%; height: 350px;">
+        <div class="centered">
+          <h3>Contact</h3>
+        </div>
+      </div>
+
+      <div class="container" style="padding: 15px;">
+        <h2>Get in Touch</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <textarea class="form-control" id="formGroupExampleInput" name="description" id="description" cols="100" rows="4" placeholder="Enter Message"></textarea><br>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your Name"><br>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your Email"><br>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Subject"><br>
+                <button type="button" class="btn btn-outline-success">Send Message</button>
+            </div>
+
+            <div class="col-md-4">
+                <b>Address:</b>
+                <p>Buttonwood, California.<br>Rosemead, CA 91770</p><br>
+
+                <b>Contact:</b>
+                <p>00 (440) 9865 562 <br>Mon to Fri 9am to 6pm</p><br>
+
+                <b>Email:</b>
+                <p>support@colorlib.com <br>Send us your query anytime!</p>
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
